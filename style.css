@@ -38,12 +38,19 @@ main{
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: #0A3871;
+    color: #937A44;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: fixed;    
+    box-shadow: 0 0 0.125rem 0.125rem #937a445b ;
+    transition: box-shadow 0.15s;
 }
+
+.mensaje:hover{
+    box-shadow: 0 0 0.125rem 0.125rem #937A44 ;
+}
+
 .mensaje:focus{
     outline: none;
 }
