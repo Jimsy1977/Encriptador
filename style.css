@@ -10,7 +10,7 @@
 .logo{
     padding-top: 10px;
     margin-left: 10px;
-    width: 20%;
+    max-width: 20%;
 }
 
 main{
@@ -98,3 +98,4 @@ main{
     color: #495057;
     font-size: 18px;
 }
+
